@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatehouse.Ark | QR Verification</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 600px;
+            width: 100%;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .logo {
+            max-width: 200px;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        
+        .verification {
+            color: #667eea;
+            font-weight: bold;
+        }
+        
+        .status {
+            background: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            display: inline-block;
+            margin: 30px 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        .details {
+            text-align: left;
+            background: #f5f5f5;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .detail-row {
+            margin-bottom: 20px;
+        }
+        
+        .detail-label {
+            font-weight: bold;
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        
+        .detail-value {
+            color: #333;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        
+        .contact-info {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #856404;
+            line-height: 1.6;
+        }
+        
+        .contact-info strong {
+            color: #333;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px;
+            }
+            
+            h1 {
+                font-size: 22px;
+            }
+            
+            .details {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="http://ark-gatehouseawards.org/images/Logo.png" alt="Gatehouse Awards Logo" class="logo">
+        
+        <h1>QR Certificate <span class="verification">Verification</span></h1>
+        
+        <div class="status">✓ Certificate Found</div>
+        
+        <div class="details">
+            <div class="detail-row">
+                <div class="detail-label">Recipient:</div>
+                <div class="detail-value">Tairone Kaspirowicz</div>
+            </div>
+            
+            <div class="detail-row">
+                <div class="detail-label">Qualification Achieved:</div>
+                <div class="detail-value">GA Level 3 Diploma in Business Management</div>
+            </div>
+            
+            <div class="detail-row">
+                <div class="detail-label">Award Date:</div>
+                <div class="detail-value">08/12/2025</div>
+            </div>
+        </div>
+        
+        <div class="contact-info">
+            If the details shown here don't match with the certificate in front of you, please contact us immediately on:<br>
+            <strong>+44 (0)1924 609250</strong> or <strong>info@gatehouseawards.org</strong>
+        </div>
+    </div>
+</body>
+</html>
